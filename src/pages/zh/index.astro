@@ -1,0 +1,21 @@
+---
+import DefaultLayout from "@layouts/DefaultLayout.astro";
+import { t ,changeLanguage} from "i18next";
+import { Trans } from "astro-i18next/components";
+
+changeLanguage("zh")
+---
+
+<DefaultLayout>
+	<div class="flex justify-between items-center w-72">
+    <h1 class="text-3xl font-bold">首页</h1>
+  </div>
+  <h1>{t("home.title")}</h1>
+    <p>
+      <Trans i18nKey="home.subtitle">
+        <em>more complex</em>
+        <strong>html elements</strong>
+        <a href="https://example.com/" class="text-blue-500 underline">cool link</a>
+      </Trans>
+    </p>
+</DefaultLayout>

@@ -1,0 +1,19 @@
+{
+  "site": {
+    "title": "我的网站",
+    "description": "这是我的网站的描述"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于"
+  },
+  "counter": {
+    "countText": "计数",
+    "incrementButtonText": "增加",
+    "decrementButtonText": "减少"
+  },
+  "home": {
+    "title": "欢迎来到我的网站！",
+    "subtitle": "这是一个<0>更复杂的</0>字符串，混合了<1>html元素</1>，例如<2>一个酷链接</2>！"
+  }
+}

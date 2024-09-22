@@ -1,0 +1,19 @@
+{
+  "site": {
+    "title": "Awesome Astro!",
+    "description": "Here is the description of my awesome Astro!"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "counter": {
+    "countText": "Count",
+    "incrementButtonText": "Increment",
+    "decrementButtonText": "Decrement"
+  },
+  "home": {
+    "title": "Welcome to my awesome astro website!",
+    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as <2>a cool link</2>!"
+  }
+}

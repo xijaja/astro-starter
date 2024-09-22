@@ -1,0 +1,19 @@
+---
+import { Counter } from "@components/view/Counter";
+import DefaultLayout from "@layouts/DefaultLayout.astro";
+import { changeLanguage, t } from "i18next";
+
+changeLanguage("en")
+---
+
+<DefaultLayout>
+	<h1 class="text-3xl font-bold">About</h1>
+
+  <Counter 
+    client:load 
+    initialCount={0} 
+    CountText={t("counter.countText")} 
+    IncrementButtonText={t("counter.incrementButtonText")} 
+    DecrementButtonText={t("counter.decrementButtonText")} 
+  />
+</DefaultLayout>
